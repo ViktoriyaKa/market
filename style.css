@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+body{
+    background-color:rgb(201, 228, 252) ;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+
+    font-size: 16px; 
+    font-weight: normal; 
+    font-family: 'Playfair Display', serif;
+    
+}
