@@ -39,8 +39,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
-
 }
+
 .option {
     background-color: #fff;
     color: black;
@@ -213,15 +213,13 @@ body {
 }
 
 .card-btn1:hover {
-    box-shadow: 2px 2px 2px #000;
-    transition: 0.7s;
-    opacity: 0.8;
+    transition: 0.5s;
+    opacity: 0.7;
 }
 
 .card-btn2:hover {
-    box-shadow: -2px 2px 2px #000;
-    transition: 0.7s;
-    opacity: 0.8;
+    transition: 0.5s;
+    opacity: 0.7;
 }
 
 .card-img2 {
@@ -689,6 +687,7 @@ body {
     margin-top: 20px;
     background-color: #57C150;
     display: flex;
+    border-radius: 2px;
 }
 
 .cards-p4 {
@@ -742,6 +741,7 @@ body {
     margin-top: 20px;
     background-color: #57C150;
     display: flex;
+    border-radius: 2px;
 }
 
 .fourth-card {
@@ -932,7 +932,19 @@ body {
     border-radius: 50%;
     border: 2px solid #E4E7E9;
 }
+.buttons-btn10 {
+    background-color: #2DB224;
+    border: 2px solid #2DB224;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 
+.buttons-p10 {
+    color: #fff;
+    font-size: 16px;
+}
 .buttons-p1 {
     color: #191C1F;
     font-size: 16px;
@@ -1107,4 +1119,52 @@ body {
     box-shadow: -2px 2px 2px #2DB224;
     opacity: 0.9;
     transition: 0.7s;
+}
+
+.cart {
+    margin-top: 20px;
+    display: flex;
+
+}
+.cart-btn {
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+    width: 179px;
+    background-color: #57C150;
+    padding: 5px 2px;
+    border-radius: 6px;
+}
+
+.cart-btn1 {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    width: 179px;
+    background-color: #57C150;
+    padding: 5px 2px;
+    border-radius: 6px;
+}
+
+.cart-btn:hover {
+    background-color: #71d06a;
+    transition: 0.5s;
+}
+
+.cart-btn1:hover {
+    background-color: #71d06a;
+    transition: 0.5s;
+}
+
+.cart-img {
+    height: 25px;
+    width: 25px;
+    margin-left: 35px;
+}
+
+.cart-p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 5px;
 }
