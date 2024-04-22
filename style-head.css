@@ -1131,7 +1131,7 @@ body {
     align-items: center;
     margin-left: 160px;
     width: 179px;
-    background-color: #57C150;
+    background-color: #87d582;
     padding: 5px 2px;
     border-radius: 6px;
 }
@@ -1141,18 +1141,18 @@ body {
     align-items: center;
     margin-left: 70px;
     width: 179px;
-    background-color: #57C150;
+    background-color: #87d582;
     padding: 5px 2px;
     border-radius: 6px;
 }
 
 .cart-btn:hover {
-    background-color: #71d06a;
+    background-color: #4dc345;
     transition: 0.5s;
 }
 
 .cart-btn1:hover {
-    background-color: #71d06a;
+    background-color: #4dc345;
     transition: 0.5s;
 }
 
