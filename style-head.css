@@ -462,6 +462,12 @@ body {
     position: relative;
 }
 
+.buttons-img2 {
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
 .buttons-btn1 {
     width: 50px;
     height: 50px;
@@ -647,12 +653,6 @@ body {
     transition: 0.3s;
 }
 
-.buttons-btn1:hover {
-    box-shadow: 2px 2px 2px #2DB224;
-    opacity: 0.9;
-    transition: 0.7s;
-}
-
 .buttons-btn3 {
     width: 50px;
     height: 50px;
@@ -661,12 +661,6 @@ body {
     border: 2px solid #2DB224;
     margin-right: 20px;
     margin-left: 30px;
-}
-
-.buttons-btn3:hover {
-    box-shadow: -2px 2px 2px #2DB224;
-    opacity: 0.9;
-    transition: 0.7s;
 }
 
 .cart {
@@ -729,6 +723,7 @@ body {
     height: 180px;
     display: flex;
     border-radius: 25px;
+    position: relative;
 }
 
 .tovar-price {
@@ -782,3 +777,35 @@ body {
     margin-left: 70px;
     margin-top: 40px;
 }
+
+.heart-icon {
+    position: absolute;
+    top: 557px;
+    margin-left: 140px;
+    height: 30px;
+    width: 30px;
+}
+
+.heart-icon1 {
+    position: absolute;
+    top: 925px;
+    margin-left: 140px;
+    height: 30px;
+    width: 30px;
+}
+
+.heart-icon2 {
+    position: absolute;
+    top: 1622px;
+    margin-left: 140px;
+    height: 30px;
+    width: 30px;
+} 
+
+.heart-icon3 {
+    position: absolute;
+    top: 1990px;
+    margin-left: 140px;
+    height: 30px;
+    width: 30px;
+} 
