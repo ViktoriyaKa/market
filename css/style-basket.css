@@ -383,6 +383,9 @@ body {
     transition: 0.5s;
 }
 
+.cart {
+    width: 1920px;
+}
 .cart-right-11-p {
     color: #191C1F;
     font-size: 16px;
@@ -608,7 +611,7 @@ body {
     transition: 0.7s;
 }
 
-@media (max-width: 1780px){
+@media (max-width: 1450px) {
     .cart-right-12-btn1 {
         width: 320px;
     }
@@ -633,7 +636,7 @@ body {
     }
 } 
 
-@media (max-width: 1720px){
+@media (max-width: 1410px) {
     .cart-right-12-btn1 {
         width: 280px;
     }
@@ -658,7 +661,7 @@ body {
     }
 } 
 
-@media (max-width: 1660px){
+@media (max-width: 1370px) {
     .cart-right-12-btn1 {
         width: 240px;
     }
@@ -683,7 +686,7 @@ body {
     }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1325px) {
     .cart {
         display: block;
     }

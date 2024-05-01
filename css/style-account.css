@@ -687,7 +687,7 @@ padding: 10px;
 
 @media screen and (max-width: 480px) {
 .header-line1-input {
-width: 80%;
+width: 50%;
 font-size: 12px;
 }
 
