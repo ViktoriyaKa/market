@@ -52,6 +52,7 @@ body {
     padding-left: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
+    min-width: 850px;
 }
 
 .header-line1-p1 {
@@ -103,6 +104,7 @@ body {
     background-color: #D5F0D3;
     display: flex;
     align-items: center;
+    min-width: 850px;
 }
 
 .header-line3-option {
@@ -484,9 +486,11 @@ body {
 
 .bottom {
     display: flex;
-    height: 400px;
+    min-height: 400px;
+    max-height: 600px;
     background-color: #191C1F;
     padding-bottom: 60px;
+    min-width: 850px;
 }
 
 .bottom1 {
