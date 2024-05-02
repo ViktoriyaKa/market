@@ -53,6 +53,7 @@ body {
     padding-left: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
+    min-width: 850px;
 }
 
 .header-line1-p1 {
@@ -110,6 +111,7 @@ body {
     background-color: #D5F0D3;
     display: flex;
     align-items: center;
+    min-width: 850px;
 }
 
 .header-line3-option {
@@ -360,6 +362,9 @@ body {
     display: flex;
     background-color: #191C1F;
     padding-bottom: 60px;
+    min-height: 400px;
+    max-height: 600px;
+    min-width: 850px;
 }
 
 .bottom1 {
@@ -459,3 +464,249 @@ body {
     opacity: 0.9;
     transition: 0.7s;
 }
+
+@media (max-width: 1370px) {
+    .account {
+        margin-left: 500px;
+    }
+}
+
+@media (max-width: 1325px) {
+    .bottom2 {
+        margin-left: 70px;
+    }
+
+    .bottom1 {
+        margin-left: 250px;
+    }
+
+    .account {
+        margin-left: 480px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .header-line1-img3 {
+        margin-left: 70px;
+    }
+
+    .header-line1-img4 {
+        margin-left: 20px;
+    }
+
+    .header-line3-img4 {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1274px) {
+    .header-line1-p1 {
+        font-size: 18px;
+    }
+
+    .header-line1-input {
+        width: 400px;
+    }
+
+    .header-line1-img3 {
+        margin-left: 40px;
+    }
+
+    .bottom2 {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 1244px) {
+    .account {
+        margin-left: 460px;
+    }
+}
+
+@media (max-width: 1204px) {
+    .account {
+        margin-left: 410px;
+    }
+}
+
+@media (max-width: 1154px) {
+    .account {
+        margin-left: 410px;
+    }
+}
+
+@media (max-width: 1124px) {
+    .account {
+        margin-left: 380px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .header-line1-input {
+        width: 300px;
+    }
+
+    .header-line2 {
+        padding-left: 150px;
+    }
+
+    .header-line3-select {
+        margin: 10px 10px 10px 150px;
+    }
+    
+    .header-line3-a1 {
+        font-size: 12px;
+    }
+
+    .header-line3-a4 {
+        font-size: 12px;
+    }
+
+    .bottom1 {
+        margin-left: 150px;
+    }
+
+    .bottom2-p2 {
+        font-size: 12px;
+    }
+
+    .bottom1-p3 {
+        font-size: 12px;
+    }
+    
+    .bottom2-p7 {
+        font-size: 12px;
+    }
+    .header-line3-a1 {
+        font-size: 12px;
+    }
+
+    .header-line3-a4 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .account {
+        margin-left: 330px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header-line1-input {
+        width: 300px;
+    }
+
+    .header-line2 {
+        padding-left: 100px;
+    }
+
+    .header-line3-select {
+        margin: 10px 10px 10px 100px;
+    }
+    
+    .bottom1 {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 970px) {
+    .account {
+        margin-left: 270px;
+    }
+}
+
+
+@media (max-width: 930px)  {
+    .account {
+        margin-left: 250px;
+    }
+}
+@media (max-width: 890px) {
+    .header-line1-input {
+        width: 280px;
+    }
+
+    .header-line2 {
+        padding-left: 80px;
+    }
+
+    .header-line3-select {
+        margin: 10px 10px 10px 80px;
+    }
+    
+    .bottom1 {
+        margin-left: 80px;
+    }
+
+    .bottom1-p1 {
+        font-size: 20px;
+    }
+
+    .bottom1-img1 {
+        height: 60px;
+        width: 40px;
+    }
+
+    .bottom2 {
+        margin-left: 45px;
+    }
+
+    .account {
+        margin-left: 230px;
+    }
+}
+
+@media (max-width: 850px) {
+    .header-line2 {
+        padding-left: 55px;
+    }
+
+    .header-line3-select {
+        margin: 10px 10px 10px 55px;
+    }
+    
+    .bottom1 {
+        margin-left: 55px;
+    }
+
+    .account {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 827px) {
+    .header-line3-a4 {
+        display: none;
+    }
+
+    .header-line3-img4 {
+        display: none;
+    }
+
+    .header-line1-input {
+        width: 210px;
+        margin-left: 30px;
+    }
+
+    .header-line2 {
+        padding-left: 50px;
+    }
+
+    .header-line3-select {
+        margin: 10px 10px 10px 50px;
+    }
+
+    .bottom1 {
+        margin-left: 50px;
+    }
+
+    .bottom2 {
+        margin-left: 34px;
+    }
+
+    .account {
+        margin-left: 150px;
+    }
+} 
+
