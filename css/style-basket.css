@@ -189,44 +189,45 @@ body {
 
 .cart-left-up-p {
     font-size: 18px;
+    color: #191C1F;
     padding: 20px;
 }
 
 .cart-left-up1 {
     display: flex;
-    background-color: #F2F4F5;
-    border: 1px solid #E4E7E9;
+    background-color:#E4E7E9;
 }
 
 .cart-left-up1-p1 {
     color: #475156;
-    font-size: 12px;
+    width: 320px;
     padding: 10px 20px;
 }
 
 .cart-left-up1-p2 {
+    padding: 10px 20px;
     color: #475156;
-    font-size: 12px;
-    padding: 10px 20px 10px 270px;
+    width: 120px;
 }
 
 .cart-left-up1-p3 {
+    padding: 10px 20px;
     color: #475156;
-    font-size: 12px;
-    padding: 10px 20px 10px 70px;
+    width: 100px;
 }
 
 .cart-left-up1-p4 {
+    padding: 10px 100px;
     color: #475156;
-    font-size: 12px;
-    padding: 10px 20px 10px 70px;
+    width: 120px;
 }
 
 .tovar {
     max-height: 220px;
-    overflow: scroll;
     border: 1px solid #E4E7E9;
+    overflow: scroll;
 }
+
 .tovar1 {
     display: flex;
     margin-top: 20px;
@@ -242,24 +243,27 @@ body {
 }
 
 .tovar1-btn-img1 {
-    margin-left: 20px;
-    margin-right: 10px;
     background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.tovar2-btn-img1 {
-    margin-left: 20px;
-    margin-right: 10px;
-    background-color: #fff;
+.tovar-img2 {
+    width: 72px;
+    height: 72px;
 }
 
 .tovar1-p1 {
-    max-width: 200px;
     margin-left: 10px;
+    width: 180px;
+    margin-right: 35px;
 }
 
 .tovar1-p2 {
-    margin-left: 15px;
+    margin-top: 1px ;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
 }
 
 .tovar-img3 {
@@ -267,46 +271,22 @@ body {
     width: 17px;
 }
 
+.price {
+    display: flex;
+    width: 110px;
+    align-items: center;
+}
+
 .kolvo {
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 60px;
     display: flex;
     align-items: center;
     border: 1px solid #E4E7E9;
-    width: 120px;
-    height: 40px;
-    margin-left: 80px;
+    justify-content: space-around;
     border-radius: 3px;
-}
-
-.kolvo-btn1 {
-    background-color: #fff;
-    padding-left: 12px;
-}
-
-.kolvo-btn2 {
-    background-color: #fff;
-    padding-left: 20px;
-}
-
-.cart-right-1 {
-    margin-top: 120px;
-    margin-left: 20px;
-    border: 1px solid #E4E7E9;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    width: 400px;
-}
-
-.kolvo-p {
-    padding-left: 20px;
-}
-
-.tovar1-p3 {
-    margin-left: 70px;
-}
-
-.tovar-img4 {
-    height: 17px;
-    width: 17px;
 }
 
 .knopki {
@@ -324,6 +304,14 @@ body {
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.kolvo-btn1 {
+    background: #fff;
+}
+
+.kolvo-btn2 {
+    background: #fff;
 }
 
 .knopka1-img {
@@ -359,45 +347,54 @@ body {
 .knopka2:hover {
     border: 2px solid #44c13b;
 }
+
 .knopka2:hover .knopka2-p {
     color: #44c13b;
     transition: 0.5s;
 }
 
+.cart-right-1 {
+    margin-top: 120px;
+    margin-left: 20px;
+    border: 1px solid #E4E7E9;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 400px;
+}
+
 .cart-right-11-p {
     color: #191C1F;
-    font-size: 16px;
     padding: 20px;
+    font-size: 16px;
 }
 
 .cart-right-12 {
     display: flex;
+    justify-content: space-between;
 }
 
 .cart-right-12-p1 {
     color: #5F6C72;
     padding: 10px 0px 5px 20px;
 }
+.cart-right-12-p2-img {
+    display: flex;
+    margin-right: 20px;
+}
 
 .cart-right-12-p2 {
     color: #191C1F;
-    padding: 10px 0px 5px 210px;
+    padding: 10px 0px 5px 0px;
 }
-
-.cart-right-12-img {
+.cart-right-12-img  {
     width: 17px;
     height: 17px;
     margin-top: 8px;
 }
 
 .cart-right-12-p3 {
-    color: #5F6C72;
-    padding: 10px 0px 5px 20px;
-}
-
-.cart-right-12-p4 {
     color: #191C1F;
-    padding: 10px 0px 5px 218px; 
+    padding: 10px 20px 5px 0px;
 }
 
 .poloska {
@@ -408,14 +405,9 @@ body {
     margin-right: 20px;
 }
 
-.cart-right-12-p5 {
-    color: #5F6C72;
-    padding: 10px 0px 5px 20px;
-}
-
-.cart-right-12-p6 {
+.cart-right-12-p4 {
     color: #191C1F;
-    padding: 10px 0px 30px 275px; 
+    padding: 10px 0px 30px 20px;
 }
 
 .cart-right-12-btn1 {
@@ -483,7 +475,6 @@ body {
     background-color: #58b7f6;
     transition: 0.5s;
 }
-
 .bottom {
     display: flex;
     min-height: 400px;
@@ -592,27 +583,18 @@ body {
 }
 
 @media (max-width: 1450px) {
-    .cart-right-12-btn1 {
-        width: 320px;
-    }
-    .cart-right-12-btn-p {
-        padding: 15px 10px 15px 70px;
-    }
-    .cart-right-12-p6 {
-        padding: 10px 0px 30px 230px; 
-    }
-    .cart-right-12-p2 {
-        padding: 10px 0px 5px 165px;
-    }
-    .cart-right-12-p4 {
-        padding: 10px 0px 5px 173px; 
-    }
     .cart-right-1 {
         width: 360px;
     }
 
     .cart-right-2 {
         width: 360px;
+    }
+    .cart-right-12-btn1 {
+        width: 320px;
+    }
+    .cart-right-12-btn-p {
+        padding: 15px 10px 15px 70px;
     }
 } 
 
@@ -622,15 +604,6 @@ body {
     }
     .cart-right-12-btn-p {
         padding: 15px 10px 15px 50px;
-    }
-    .cart-right-12-p6 {
-        padding: 10px 0px 30px 190px; 
-    }
-    .cart-right-12-p2 {
-        padding: 10px 0px 5px 125px;
-    }
-    .cart-right-12-p4 {
-        padding: 10px 0px 5px 133px; 
     }
     .cart-right-1 {
         width: 320px;
@@ -647,15 +620,6 @@ body {
     }
     .cart-right-12-btn-p {
         padding: 15px 10px 15px 30px;
-    }
-    .cart-right-12-p6 {
-        padding: 10px 0px 30px 150px; 
-    }
-    .cart-right-12-p2 {
-        padding: 10px 0px 5px 85px;
-    }
-    .cart-right-12-p4 {
-        padding: 10px 0px 5px 93px; 
     }
     .cart-right-1 {
         width: 280px;
@@ -696,16 +660,7 @@ body {
     .cart-right-12-btn-p {
         padding: 15px 10px 15px 100px;
     }
-    .cart-right-12-p6 {
-        padding: 10px 0px 30px 270px; 
-    }
-    .cart-right-12-p2 {
-        padding: 10px 0px 5px 205px;
-    }
-    .cart-right-12-p4 {
-        padding: 10px 0px 5px 213px; 
-    }
-
+    
     .cart-right-2 {
         margin-left: 20px;
         margin-top: 20px;
@@ -720,6 +675,9 @@ body {
 
     .header-line1-img4 {
         margin-left: 20px;
+    }
+    .header-line3-img4 {
+        margin-left: 60px;
     }
 }
 
@@ -838,39 +796,36 @@ body {
     .cart-right-12-btn-p {
         padding: 15px 10px 15px 70px;
     }
-    .cart-right-12-p6 {
-        padding: 10px 0px 30px 230px; 
-    }
-    .cart-right-12-p2 {
-        padding: 10px 0px 5px 165px;
-    }
-    .cart-right-12-p4 {
-        padding: 10px 0px 5px 173px; 
-    }
     .tovar-img2 {
         height: 50px;
         width: 50px;
     }
     .tovar1-p1 {
         font-size: 12px;
-        width: 180px;
+        margin-right: 10px;
+        width: 160px;
     }
     .cart-left {
         width: 740px;
     }
-    .cart-left-up1-p2 {
-        color: #475156;
-        font-size: 12px;
-        padding: 10px 20px 10px 230px;
-    }
-    .kolvo {
-        margin-left: 70px;
+    .cart-left-up1-p1 {
+        width: 280px;
     }
     .knopka2 {
         margin-left: 275px;
     }
     .cart-left-up {
         width: 740px;
+    }
+    .tovar1-p2 {
+        margin-left: 25px;
+        margin-top: 1px ;
+    }
+    .price {
+        width: 130px;
+    }
+    .kolvo {
+        margin-right: 40px;
     }
 }
 
@@ -926,48 +881,36 @@ body {
     .cart-right-12-btn-p {
         padding: 15px 10px 15px 60px;
     }
-    .cart-right-12-p6 {
-        padding: 10px 0px 30px 200px; 
-    }
-    .cart-right-12-p2 {
-        padding: 10px 0px 5px 135px;
-    }
-    .cart-right-12-p4 {
-        padding: 10px 0px 5px 143px; 
-    }
-
     .cart-left {
         width: 680px;
     }
-
     .knopka2 {
         margin-left: 215px;
     }
-
     .cart-left-up {
         width: 680px;
     }
-
-    .kolvo {
-        margin-left: 50px;
-    }
-
-    .cart-left-up1-p3 {
-        color: #475156;
-        font-size: 12px;
-        padding: 10px 20px 10px 50px;
-    }
-
     .cart-left-up1-p4 {
-        color: #475156;
-        font-size: 12px;
-        padding: 10px 20px 10px 50px;
+        padding: 10px 70px;
     }
-
-    .tovar1-p3 {
-        margin-left: 60px;
+    .cart-left-up1-p1 {
+        width: 265px;
     }
-}
+    .cart-left-up1-p2 {
+        width: 110px;
+    }
+    .kolvo {
+        margin-right: 35px;
+        width: 90px;
+        height: 30px;
+    }
+    .price {
+        width: 125px;
+    }
+    .tovar1-p1 {
+        width: 145px;
+    }
+} 
 
 @media (max-width: 850px) {
     .header-line2 {
@@ -991,7 +934,7 @@ body {
     }
 }
 
-@media (max-width: 827px) {
+@media (max-width: 820px) {
     .header-line3-a4 {
         display: none;
     }
@@ -999,6 +942,12 @@ body {
     .header-line3-img4 {
         display: none;
     }
+    .header-line1-input {
+        width: 240px;
+    }
+}
+
+@media (max-width: 770px) {
 
     .cart-right-2 {
         width: 300px;
@@ -1038,16 +987,6 @@ body {
     .cart-right-12-btn-p {
         padding: 15px 10px 15px 40px;
     }
-    .cart-right-12-p6 {
-        padding: 10px 0px 30px 170px; 
-    }
-    .cart-right-12-p2 {
-        padding: 10px 0px 5px 105px;
-    }
-    .cart-right-12-p4 {
-        padding: 10px 0px 5px 113px; 
-    }
-
     .knopka2 {
         margin-left: 160px;
     }
@@ -1060,69 +999,35 @@ body {
         width: 620px;
     }
 
-    .kolvo {
-        margin-left: 35px;
-    }
-
-    .cart-left-up1-p2 {
-        font-size: 10px;
-        padding: 10px 20px 10px 237px;
-    }
-
     .tovar1-p2 {
         font-size: 13px;
     }
 
-    .tovar1-p3 {
-        font-size: 13px;
-    }
-
-    .tovar1-p3 {
-        margin-left: 40px;
-    }
-
-    .kolvo-p {
-        font-size: 13px;
-        padding-left: 15px;
-    }
-
-    .kolvo-img1 {
-        width: 15px;
-        height: 15px;
-    }
-
-    .kolvo-img2 {
-        height: 15px;
-        width: 15px;
-    }
-
-    .kolvo-btn1 {
-        padding-left: 10px;
-    }
-    
-    .kolvo-btn2 {
-        padding-left: 15px;
+    .bottom2 {
+        margin-left: 34px;
     }
 
     .kolvo {
-        width: 100px;
-    }
+        margin-right: 10px;
 
+    }
+    .price {
+        width: 110px;
+    }
     .cart-left-up1-p1 {
-        font-size: 10px;
+        width: 265px;
+        font-size: 12px;
     }
-    
+    .cart-left-up1-p2 {
+        width: 95px;
+        font-size: 12px;
+    }
     .cart-left-up1-p3 {
-        font-size: 10px;
-        padding: 10px 20px 10px 40px;
+        width: 74px;
+        font-size: 12px;
     }
-    
     .cart-left-up1-p4 {
-        font-size: 10px;
-        padding: 10px 20px 10px 30px;
-    }
-
-    .bottom2 {
-        margin-left: 34px;
+        padding: 10px 70px;
+        font-size: 12px;
     }
 } 
