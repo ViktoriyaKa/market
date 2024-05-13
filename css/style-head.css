@@ -454,7 +454,7 @@ body {
     display: flex;
     margin-top: 70px;
     background-color: #fff;
-    margin-left: 450px;
+    justify-content: center;
 }
 
 .buttons-img1 {
