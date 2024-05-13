@@ -257,13 +257,13 @@ body {
     margin-left: 10px;
     width: 180px;
     margin-right: 35px;
+    overflow-wrap: break-word;
 }
 
 .tovar1-p2 {
-    margin-top: 1px ;
-    /* white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; */
+    margin-top: 1px;
+    max-width: 100px;
+    overflow-wrap: break-word;
 }
 
 .tovar-img3 {
@@ -275,6 +275,7 @@ body {
     display: flex;
     width: 110px;
     align-items: center;
+    overflow-wrap: break-word;
 }
 
 .kolvo {
@@ -904,6 +905,9 @@ body {
         width: 90px;
         height: 30px;
     }
+    .tovar1-p2 {
+        max-width: 90px;
+    }
     .price {
         width: 125px;
     }
@@ -948,7 +952,9 @@ body {
 }
 
 @media (max-width: 770px) {
-
+    .tovar1-p2 {
+        max-width: 75px;
+    }
     .cart-right-2 {
         width: 300px;
     }
