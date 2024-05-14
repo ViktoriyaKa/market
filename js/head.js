@@ -227,3 +227,12 @@ button1.addEventListener('mouseleave', function() {
     image1.style.backgroundColor = '#fff'
     button1.style.backgroundColor = '#fff'
 })
+
+// const changeHeart = document.getElementById('heart-icon')
+// const changeCarta = document.getElementById('carta')
+
+// if (changeCarta.style.display = 'none') {
+//     changeHeart.style.marginTop = '10px'
+// } else {
+//     changeHeart.style.marginTop = '557px'
+// }
