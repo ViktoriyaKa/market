@@ -228,11 +228,40 @@ button1.addEventListener('mouseleave', function() {
     button1.style.backgroundColor = '#fff'
 })
 
-// const changeHeart = document.getElementById('heart-icon')
-// const changeCarta = document.getElementById('carta')
+const cartBtn = document.querySelector('.cart-btn');
+const quantityBlock = document.querySelector('.quantity-block');
+const minusBtn = document.querySelector('.minus-btn');
+const plusBtn = document.querySelector('.plus-btn');
+const quantity = document.querySelector('.quantity');
 
-// if (changeCarta.style.display = 'none') {
-//     changeHeart.style.marginTop = '10px'
-// } else {
-//     changeHeart.style.marginTop = '557px'
-// }
+let count = 1;
+
+cartBtn.addEventListener('click', () => {
+    cartBtn.style.display = 'none';
+    quantity.innerText = count;
+    quantityBlock.style.display = 'flex';
+});
+
+plusBtn.addEventListener('click', () => {
+    count++;
+    quantity.innerText = count;
+});
+
+minusBtn.addEventListener('click', () => {
+    if (count > 1) {
+        count--;
+        quantity.innerText = count;
+    } else {
+        cartBtn.style.display = 'flex'
+        quantityBlock.style.display = 'none'
+    }
+})
+
+document.querySelector('.header-line3-new').addEventListener('click', function() {
+    var category = document.querySelector('.category');
+    if (category.style.display === 'none' || category.style.display === '') {
+        category.style.display = 'block';
+    } else {
+        category.style.display = 'none';
+    }
+});
