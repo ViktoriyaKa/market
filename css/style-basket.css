@@ -447,7 +447,7 @@ body {
 }
 
 .cart-right-22 {
-    margin: 25px 20px;
+    margin: 25px 20px 0px 20px;
     border: 1px solid #E4E7E9;
     border-radius: 2px;
 }
@@ -458,6 +458,7 @@ body {
 }
 
 .cart-right-22-btn1 {
+    margin-top: 25px;
     background-color: #2DA5F3;
     margin-left: 20px;
     border-radius: 2px;
@@ -473,6 +474,16 @@ body {
 .cart-right-22-btn1:hover {
     background-color: #58b7f6;
     transition: 0.5s;
+}
+
+.promokod {
+    display: none;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.promokod-p {
+    color: rgb(214, 109, 109);
 }
 .bottom {
     display: flex;
