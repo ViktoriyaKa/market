@@ -211,25 +211,22 @@ body {
 }
 .vopros {
     display: flex;
+    margin-left: 200px;
 }
 
 .vopros11 {
-
     display: flex;
     align-items: center;
     margin-top: 35px;
-    margin-left: 200px;
 }
 
 .vopros1-p1 {
-    margin-left: 200px;
     margin-top: 70px;
     font-weight: 600;
     font-size: 20px;
 }
 
 .vopros1-p2 {
-    margin-left: 200px;
     margin-top: 10px;
     font-weight: 600;
     font-size: 20px;
@@ -308,6 +305,9 @@ body {
     margin-left: 190px;
 }
 
+.perenos {
+    display: flex;
+}
 .vopros4-1 {
     display: flex;
     border: 2px solid #D5F0D3;
@@ -592,3 +592,450 @@ body {
     opacity: 0.9;
     transition: 0.7s;
 }
+
+@media (max-width: 1355px) {
+    .vopros4-1 {
+        width: 260px;
+    }
+    .vopros7-1 {
+        margin-left: 80px;
+    }
+    .vopros7 {
+        margin-left: 120px;
+    }
+    .vopros8-1-p1 {
+        margin-left: 610px;
+    }
+    .vopros8-2 {
+        margin-left: 270px;
+    }
+}
+
+@media (max-width: 1325px) {
+    .bottom2 {
+        margin-left: 70px;
+    }
+
+    .bottom1 {
+        margin-left: 250px;
+    }
+    .vopros4-1 {
+        width: 240px;
+    }
+    .vopros7-1 {
+        margin-left: 60px;
+    }
+    .vopros7 {
+        margin-left: 140px;
+    }
+    .vopros2 {
+        margin-left: 280px;
+    }
+    .vopros8-1-p1 {
+        margin-left: 590px;
+    }
+    .vopros8-2 {
+        margin-left: 250px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .header-line1-img3 {
+        margin-left: 70px;
+    }
+
+    .header-line1-img4 {
+        margin-left: 20px;
+    }
+
+    .header-line3-img4 {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1274px) {
+    .header-line1-p1 {
+        font-size: 18px;
+    }
+
+    .header-line1-input {
+        width: 400px;
+    }
+
+    .header-line1-img3 {
+        margin-left: 40px;
+    }
+
+    .bottom2 {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 1230px) {
+    .vopros4-1 {
+        width: 220px;
+    }
+    .vopros7-1 {
+        margin-left: 30px;
+    }
+    .vopros7 {
+        margin-left: 170px;
+    }
+    .vopros2 {
+        margin-left: 200px;
+    }
+    .vopros8-1-p1 {
+        margin-left: 550px;
+    }
+    .vopros8-2 {
+        margin-left: 170px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .vopros4-1 {
+        width: 200px;
+    }
+    .vopros4-img1 {
+        padding: 15px 10px 15px 15px;
+    }
+    .vopros7-1 {
+        margin-left: 10px;
+    }
+    .vopros7 {
+        margin-left: 170px;
+    }
+    .vopros2 {
+        margin-left: 120px;
+    }
+    .vopros8-1-p1 {
+        margin-left: 500px;
+    }
+    .vopros8-2 {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .vopros7 {
+        margin-left: 130px;
+    }
+    .vopros {
+        margin-left: 150px;
+    }
+    .vopros4 {
+        margin-left: 150px;
+    }
+    .vopros5 {
+        margin-left: 150px;
+    }
+    .vopros8-1-p1 {
+        margin-left: 460px;
+    }
+    .vopros8-2-1 {
+        width: 350px;
+        margin-left: 50px;
+    }
+    .vopros8-2-2 {
+        width: 350px;
+    }
+    .header-line1-input {
+        width: 300px;
+    }
+
+    .header-line2 {
+        padding-left: 150px;
+    }
+
+    .header-line3-new {
+        margin: 10px 40px 10px 150px;
+    }
+    .category {
+        margin-left: 150px;
+    }
+    
+    .header-line3-a1 {
+        font-size: 12px;
+    }
+
+    .header-line3-a4 {
+        font-size: 12px;
+    }
+
+    .bottom1 {
+        margin-left: 150px;
+    }
+
+    .bottom2-p2 {
+        font-size: 12px;
+    }
+
+    .bottom1-p3 {
+        font-size: 12px;
+    }
+    
+    .bottom2-p7 {
+        font-size: 12px;
+    }
+    .header-line3-a1 {
+        font-size: 12px;
+    }
+
+    .header-line3-a4 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .perenos {
+        display: block;
+        margin-left: 20px;
+    }
+    .vopros4-1 {
+        width: 270px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .vopros4-img1 {
+        padding: 15px 20px 15px 15px;
+    }
+    .vopros5 {
+        margin-top: 0px;
+    }
+    .vopros2 {
+        margin-left: 30px;
+    }
+    .vopros7 {
+        display: block;
+        margin-left: 380px;
+    }
+    .vopros8-1-p1 {
+        margin-left: 450px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .vopros {
+        margin-left: 100px;
+    }
+    .vopros4 {
+        margin-left: 100px;
+    }
+    .vopros5 {
+        margin-left: 100px;
+    }
+    .vopros8-1-p1 {
+        margin-left: 430px;
+    }
+
+    .header-line1-input {
+        width: 300px;
+    }
+
+    .header-line2 {
+        padding-left: 100px;
+    }
+
+    .header-line3-new {
+        margin: 10px 40px 10px 100px;
+        width: 140px;
+    }
+    .header-line3-p {
+        font-size: 12px;
+        margin-left: 2px;
+        margin-top: 1px;
+    }
+    .category {
+        margin-left: 100px;
+    }
+    
+    .bottom1 {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 970px) {
+    .vopros7 {
+        margin-left: 320px;
+    }
+    .vopros8-1-p1 {
+        margin-left: 400px;
+    }
+    .vopros8-2-1 {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 890px) {
+    .vopros {
+        margin-left: 80px;
+    }
+    .vopros4 {
+        margin-left: 80px;
+    }
+    .vopros5 {
+        margin-left: 80px;
+    }
+    .vopros2-img1 {
+        display: none;
+    }
+    .perenos {
+        margin-left: 0px;
+    }
+    .vopros8-2 {
+        display: block;
+    }
+    .vopros8-2-1 {
+        width: 450px;
+        margin-left: 80px;
+        margin-bottom: 30px;
+    }
+    .vopros8-2-2 {
+        width: 450px;
+        margin-left: 80px;
+    }
+    .vopros8-1-p1 {
+        margin-left: 360px;
+    }
+    .vopros7 {
+        margin-left: 100px;
+    }
+    .header-line1-input {
+        width: 280px;
+    }
+
+    .header-line2 {
+        padding-left: 80px;
+    }
+
+    .header-line3-new {
+        margin: 10px 40px 10px 80px;
+    }
+    .category {
+        margin-left: 80px;
+    }
+    
+    .bottom1 {
+        margin-left: 80px;
+    }
+    .vopros4-1 {
+        margin-left: 20px;
+    }
+
+    .bottom1-p1 {
+        font-size: 20px;
+    }
+
+    .bottom1-img1 {
+        height: 60px;
+        width: 40px;
+    }
+
+    .bottom2 {
+        margin-left: 45px;
+    }
+
+    .account {
+        margin-left: 230px;
+    }
+}
+
+@media (max-width: 850px) {
+    .vopros {
+        margin-left: 55px;
+    }
+    .vopros4 {
+        margin-left: 55px;
+    }
+    .vopros5 {
+        margin-left: 55px;
+    }
+    .vopros8-1-p1 {
+        margin-left: 340px;
+    }
+    .header-line2 {
+        padding-left: 55px;
+    }
+
+    .header-line3-new {
+        margin: 10px 40px 10px 55px;
+    }
+    .category {
+        margin-left: 55px;
+    }
+    
+    .bottom1 {
+        margin-left: 55px;
+    }
+}
+
+@media (max-width: 820px) {
+    .header-line3-a4 {
+        display: none;
+    }
+
+    .header-line3-img4 {
+        display: none;
+    }
+    .header-line1-input {
+        width: 240px;
+    }
+}
+@media (max-width: 770px) {
+    .vopros8-2-1 {
+        margin-left: 30px;
+    }
+    .vopros8-2-2 {
+        margin-left: 30px;
+    }
+    .vopros7 {
+        margin-left: 70px;
+    }
+    .vopros {
+        margin-left: 50px;
+    }
+    .vopros4 {
+        margin-left: 50px;
+    }
+    .vopros5 {
+        margin-left: 50px;
+    }
+    .vopros8-1-p1 {
+        margin-left: 300px;
+    }
+    .header-line3-a4 {
+        display: none;
+    }
+
+    .header-line3-img4 {
+        display: none;
+    }
+
+    .header-line1-input {
+        width: 210px;
+        margin-left: 30px;
+    }
+
+    .header-line2 {
+        padding-left: 50px;
+    }
+
+    .header-line3-new {
+        margin: 10px 40px 10px 50px;
+    }
+    .category {
+        margin-left: 50px;
+    }
+
+    .bottom1 {
+        margin-left: 50px;
+    }
+
+    .bottom2 {
+        margin-left: 34px;
+    }
+
+    .account {
+        margin-left: 150px;
+    }
+} 
