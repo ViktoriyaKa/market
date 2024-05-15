@@ -216,6 +216,7 @@ body {
 
 .help-right {
     display: block;
+    margin-left: 200px;
 }
 
 .help-left {
@@ -286,7 +287,6 @@ body {
 }
 
 .help-right-p1 {
-    margin-left: 200px;
     margin-top: 50px;
     font-size: 24px;
     font-weight: 600;
@@ -297,7 +297,6 @@ body {
     margin-top: 40px;
     border: 1px solid #E4E7E9;
     border-radius: 4px;
-    margin-left: 200px;
     width: 650px;
     background-color: #fff;
     align-items: center;
@@ -324,7 +323,6 @@ body {
     margin-top: 10px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    margin-left: 200px;
     width: 650px;
     background-color: #2DB224;
     align-items: center;
@@ -347,14 +345,12 @@ body {
     margin-top: 15px;
     border: 1px solid #E4E7E9;
     border-radius: 4px;
-    margin-left: 200px;
     width: 650px;
     background-color: #fff;
     align-items: center;
 }
 
 .hiddenText-2 {
-    margin-left: 200px;
     width: 650px;
     border: 1px solid #E4E7E9;
     border-bottom-left-radius: 4px;
@@ -412,7 +408,6 @@ body {
     margin-top: 10px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    margin-left: 200px;
     width: 650px;
     background-color: #2DB224;
     align-items: center;
@@ -431,7 +426,6 @@ body {
 }
 
 .hiddenText1-2 {
-    margin-left: 200px;
     width: 650px;
     border: 1px solid #E4E7E9;
     border-bottom-left-radius: 4px;
@@ -457,7 +451,6 @@ body {
     margin-top: 10px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    margin-left: 200px;
     width: 650px;
     background-color: #2DB224;
     align-items: center;
@@ -475,7 +468,6 @@ body {
 }
 
 .hiddenText2-2 {
-    margin-left: 200px;
     width: 650px;
     border: 1px solid #E4E7E9;
     border-bottom-left-radius: 4px;
@@ -523,7 +515,6 @@ body {
     margin-top: 10px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    margin-left: 200px;
     width: 650px;
     background-color: #2DB224;
     align-items: center;
@@ -538,7 +529,6 @@ body {
 }
 
 .hiddenText3-2 {
-    margin-left: 200px;
     width: 650px;
     border: 1px solid #E4E7E9;
     border-bottom-left-radius: 4px;
@@ -580,7 +570,6 @@ body {
     margin-top: 10px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    margin-left: 200px;
     width: 650px;
     background-color: #2DB224;
     align-items: center;
@@ -595,7 +584,6 @@ body {
 }
 
 .hiddenText4-2 {
-    margin-left: 200px;
     width: 650px;
     border: 1px solid #E4E7E9;
     border-bottom-left-radius: 4px;
@@ -742,6 +730,12 @@ body {
     }
 }
 
+@media (max-width: 1365px) {
+    .help-left {
+        margin-left: 50px;
+    }
+}
+
 @media (max-width: 1325px) {
     .bottom2 {
         margin-left: 70px;
@@ -749,6 +743,10 @@ body {
 
     .bottom1 {
         margin-left: 250px;
+    }
+
+    .help-left {
+        margin-left: 20px;
     }
 }
 
@@ -764,9 +762,39 @@ body {
     .header-line3-img4 {
         margin-left: 30px;
     }
+
+    .help-left {
+        width: 350px;
+        height: 550px;
+        background-color: #FBF4CE;
+        padding: 31px;
+        border-radius: 4px;
+    }
+
+    .help-left-p1 {
+        font-size: 16px;
+    }
+    .help-left-p2 {
+        font-size: 16px;
+    }
+
+    .help-left-input1 {
+        width: 290px;
+    }
+
+    .help-left-input2 {
+        width: 290px;
+    }
+
+    .help-left-btn {
+        margin-left: 5px;
+    }
 }
 
 @media (max-width: 1274px) {
+    .help-right {
+        margin-left: 150px;
+    }
     .header-line1-p1 {
         font-size: 18px;
     }
@@ -785,30 +813,51 @@ body {
 }
 
 @media (max-width: 1244px) {
-    .account {
-        margin-left: 460px;
-    }
-}
-
-@media (max-width: 1204px) {
-    .account {
-        margin-left: 410px;
+    .help-right {
+        margin-left: 100px;
     }
 }
 
 @media (max-width: 1154px) {
-    .account {
-        margin-left: 410px;
+    .help {
+        display: block;
     }
-}
-
-@media (max-width: 1124px) {
-    .account {
-        margin-left: 380px;
+    .help-right {
+        margin-left: 200px;
+    }
+    .help-left {
+        margin-left: 200px;
+        width: 400px;
+        height: 500px;
+    }
+    .help-left-p1 {
+        font-size: 18px;
+    }
+    .help-left-p2 {
+        font-size: 18px;
+    }
+     
+    .help-left-input1 {
+        width: 340px;
+    }
+    
+    .help-left-input2 {
+        width: 340px;
+    }
+    
+    .help-left-btn {
+        margin-left: 30px;
+        width: 280px;
     }
 }
 
 @media (max-width: 1080px) {
+    .help-right {
+        margin-left: 150px;
+    }
+    .help-left {
+        margin-left: 150px;
+    }
     .header-line1-input {
         width: 300px;
     }
@@ -856,13 +905,13 @@ body {
     }
 }
 
-@media (max-width: 1030px) {
-    .account {
-        margin-left: 330px;
-    }
-}
-
 @media (max-width: 1000px) {
+    .help-right {
+        margin-left: 100px;
+    }
+    .help-left {
+        margin-left: 100px;
+    }
     .header-line1-input {
         width: 300px;
     }
@@ -889,19 +938,13 @@ body {
     }
 }
 
-@media (max-width: 970px) {
-    .account {
-        margin-left: 270px;
-    }
-}
-
-
-@media (max-width: 930px)  {
-    .account {
-        margin-left: 250px;
-    }
-}
 @media (max-width: 890px) {
+    .help-right {
+        margin-left: 80px;
+    }
+    .help-left {
+        margin-left: 80px;
+    }
     .header-line1-input {
         width: 280px;
     }
@@ -933,13 +976,15 @@ body {
     .bottom2 {
         margin-left: 45px;
     }
-
-    .account {
-        margin-left: 230px;
-    }
 }
 
 @media (max-width: 850px) {
+    .help-right {
+        margin-left: 55px;
+    }
+    .help-left {
+        margin-left: 55px;
+    }
     .header-line2 {
         padding-left: 55px;
     }
@@ -953,10 +998,6 @@ body {
     
     .bottom1 {
         margin-left: 55px;
-    }
-
-    .account {
-        margin-left: 200px;
     }
 }
 
@@ -973,6 +1014,48 @@ body {
     }
 }
 @media (max-width: 770px) {
+    .help-right-v1 {
+        width: 630px;
+    }
+    .help-right-v2 {
+        width: 630px;
+    }
+    .hiddenText-1 {
+        width: 630px;
+    }
+    .hiddenText-2 {
+        width: 630px;
+    }
+    .hiddenText1-1 {
+        width: 630px;
+    }
+    .hiddenText1-2 {
+        width: 630px;
+    }
+    .hiddenText2-1 {
+        width: 630px;
+    }
+    .hiddenText2-2 {
+        width: 630px;
+    }
+    .hiddenText3-1 {
+        width: 630px;
+    }
+    .hiddenText3-2 {
+        width: 630px;
+    }
+    .hiddenText4-1 {
+        width: 630px;
+    }
+    .hiddenText4-2 {
+        width: 630px;
+    }
+    .help-right {
+        margin-left: 50px;
+    }
+    .help-left {
+        margin-left: 50px;
+    }
     .header-line3-a4 {
         display: none;
     }
