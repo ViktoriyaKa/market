@@ -376,7 +376,7 @@ input[type="range"]::-moz-range-thumb{
     display: flex;
 }
 .right-filter-line11 {
-    width: 740px;
+    width: 743px;
     height: 44px;
     display: flex;
     background-color:  #F2F4F5;
@@ -416,7 +416,7 @@ input[type="range"]::-moz-range-thumb{
 
 .right-filter-line11-p2 {
     color: #141414;
-    margin-left: 80px;
+    margin-left: 110px;
 }
 
 .right-filter-line11-p3 {
@@ -655,11 +655,6 @@ input[type="range"]::-moz-range-thumb{
     transition: 0.3s;
 }
 
-@media (max-width: 1370px) {
-    .account {
-        margin-left: 500px;
-    }
-}
 
 @media (max-width: 1325px) {
     .bottom2 {
@@ -670,9 +665,6 @@ input[type="range"]::-moz-range-thumb{
         margin-left: 250px;
     }
 
-    .account {
-        margin-left: 480px;
-    }
 }
 
 @media (max-width: 1300px) {
@@ -686,6 +678,15 @@ input[type="range"]::-moz-range-thumb{
 
     .header-line3-img4 {
         margin-left: 30px;
+    }
+    .right-filter-line11 {
+        width: 690px;
+    }
+    .right-filter-line11-p2 {
+        margin-left: 50px;
+    }
+    .tovar {
+        margin-right: 73px;
     }
 }
 
@@ -708,32 +709,32 @@ input[type="range"]::-moz-range-thumb{
 }
 
 @media (max-width: 1244px) {
-    .account {
-        margin-left: 460px;
+    .tovar {
+        margin-right: 50px;
+    }
+    .right-filter-line11 {
+        width: 645px;
+    }
+    .right-filter-line11-p2 {
+        margin-left: 10px;
     }
 }
 
-@media (max-width: 1204px) {
-    .account {
-        margin-left: 410px;
-    }
-}
-
-@media (max-width: 1154px) {
-    .account {
-        margin-left: 410px;
-    }
-}
-
-@media (max-width: 1124px) {
-    .account {
-        margin-left: 380px;
+@media (max-width: 1200px) {
+    .right-filter {
+        margin-left: 30px;
     }
 }
 
 @media (max-width: 1080px) {
     .header-line1-input {
         width: 300px;
+    }
+    .tovar {
+        margin-right: 40px;
+    }
+    .filter1 {
+        margin-left: 150px;
     }
 
     .header-line2 {
@@ -752,6 +753,28 @@ input[type="range"]::-moz-range-thumb{
 
     .header-line3-a4 {
         font-size: 12px;
+    }
+    .right-filter-line11-p1 {
+        font-size: 12px;
+    }
+
+    .right-filter-line11-p3 {
+        font-size: 12px;
+    }
+
+    .right-filter-line11-p {
+        font-size: 12px;
+    }
+
+    .right-filter-line11-p2 {
+        font-size: 12px;
+    }
+    .right-filter-line11 {
+        width: 620px;
+    }
+
+    .right-filter-line11-p2 {
+        margin-left: 60px;
     }
 
     .bottom1 {
@@ -778,15 +801,12 @@ input[type="range"]::-moz-range-thumb{
     }
 }
 
-@media (max-width: 1030px) {
-    .account {
-        margin-left: 330px;
-    }
-}
-
 @media (max-width: 1000px) {
     .header-line1-input {
         width: 300px;
+    }
+    .filter1 {
+        margin-left: 100px;
     }
 
     .header-line2 {
@@ -826,6 +846,9 @@ input[type="range"]::-moz-range-thumb{
     .header-line1-input {
         width: 280px;
     }
+    .filter1 {
+        margin-left: 80px;
+    }
 
     .header-line2 {
         padding-left: 80px;
@@ -863,6 +886,9 @@ input[type="range"]::-moz-range-thumb{
 @media (max-width: 850px) {
     .header-line2 {
         padding-left: 55px;
+    }
+    .filter1 {
+        margin-left: 55px;
     }
 
     .header-line3-new {
@@ -910,7 +936,9 @@ input[type="range"]::-moz-range-thumb{
     .header-line2 {
         padding-left: 50px;
     }
-
+    .filter1 {
+        margin-left: 50px;
+    }
     .header-line3-new {
         margin: 10px 40px 10px 50px;
     }
