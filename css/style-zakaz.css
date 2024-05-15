@@ -210,8 +210,10 @@ body {
     transition: 0.3s;
 }
 
-.zakaz-p1 {
+.zakaz {
     margin-left: 200px;
+}
+.zakaz-p1 {
     margin-top: 50px;
     font-size: 20px;
     color: #191C1F;
@@ -224,17 +226,16 @@ body {
 }
 
 .zakaz-p2 {
-    margin-left: 200px;
     margin-top: 20px;
     color: #5F6C72;
     font-size: 14px;
     line-height: 24px;
+    max-width: 750px;
 }
 
 .zakaz-id-adres {
     display: flex;
     margin-top: 25px;
-    margin-left: 200px;
 }
 
 .zakaz-id {
@@ -250,7 +251,6 @@ body {
 
 .zakaz-input {
     margin-top: 15px;
-    margin-left: 200px;
 }
 
 .zakaz-input-id {
@@ -279,7 +279,6 @@ body {
 }
 
 .zakaz-img1 {
-    margin-left: 200px;
     margin-top: 25px;
     height: 24px;
     width: 24px;
@@ -297,7 +296,6 @@ body {
     display: flex;
     align-items: center;
     border-radius: 3px;
-    margin-left: 200px;
     margin-top: 30px;
     height: 45px;
     width: 230px;
@@ -368,6 +366,7 @@ body {
 }
 
 .bottom {
+    margin-top: 280px;
     display: flex;
     background-color: #191C1F;
     padding-bottom: 60px;
@@ -451,3 +450,299 @@ body {
     color: #cce8cf;
     transition: 0.3s;
 }
+
+@media (max-width: 1370px) {
+    .account {
+        margin-left: 500px;
+    }
+}
+
+@media (max-width: 1325px) {
+    .bottom2 {
+        margin-left: 70px;
+    }
+
+    .bottom1 {
+        margin-left: 250px;
+    }
+
+    .account {
+        margin-left: 480px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .header-line1-img3 {
+        margin-left: 70px;
+    }
+
+    .header-line1-img4 {
+        margin-left: 20px;
+    }
+
+    .header-line3-img4 {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1274px) {
+    .header-line1-p1 {
+        font-size: 18px;
+    }
+
+    .header-line1-input {
+        width: 400px;
+    }
+
+    .header-line1-img3 {
+        margin-left: 40px;
+    }
+
+    .bottom2 {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 1244px) {
+    .account {
+        margin-left: 460px;
+    }
+}
+
+@media (max-width: 1204px) {
+    .account {
+        margin-left: 410px;
+    }
+}
+
+@media (max-width: 1154px) {
+    .account {
+        margin-left: 410px;
+    }
+}
+
+@media (max-width: 1124px) {
+    .account {
+        margin-left: 380px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .zakaz {
+        margin-left: 150px;
+    }
+    .header-line1-input {
+        width: 300px;
+    }
+
+    .header-line2 {
+        padding-left: 150px;
+    }
+
+    .header-line3-new {
+        margin: 10px 40px 10px 150px;
+    }
+    .category {
+        margin-left: 150px;
+    }
+    
+    .header-line3-a1 {
+        font-size: 12px;
+    }
+
+    .header-line3-a4 {
+        font-size: 12px;
+    }
+
+    .bottom1 {
+        margin-left: 150px;
+    }
+
+    .bottom2-p2 {
+        font-size: 12px;
+    }
+
+    .bottom1-p3 {
+        font-size: 12px;
+    }
+    
+    .bottom2-p7 {
+        font-size: 12px;
+    }
+    .header-line3-a1 {
+        font-size: 12px;
+    }
+
+    .header-line3-a4 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .zakaz {
+        margin-left: 100px;
+    }
+    .header-line1-input {
+        width: 300px;
+    }
+
+    .header-line2 {
+        padding-left: 100px;
+    }
+
+    .header-line3-new {
+        margin: 10px 40px 10px 100px;
+        width: 140px;
+    }
+    .header-line3-p {
+        font-size: 12px;
+        margin-left: 2px;
+        margin-top: 1px;
+    }
+    .category {
+        margin-left: 100px;
+    }
+    
+    .bottom1 {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 890px) {
+    .zakaz {
+        margin-left: 80px;
+    }
+    .zakaz-input-id {
+        width: 330px;
+    }
+    .zakaz-input-adres {
+        width: 330px;
+    }
+    .zakaz-p2 {
+        max-width: 700px;
+    }
+    .zakaz-adres {
+        margin-left: 275px;
+    }
+    .header-line1-input {
+        width: 280px;
+    }
+
+    .header-line2 {
+        padding-left: 80px;
+    }
+
+    .header-line3-new {
+        margin: 10px 40px 10px 80px;
+    }
+    .category {
+        margin-left: 80px;
+    }
+    
+    .bottom1 {
+        margin-left: 80px;
+    }
+
+    .bottom1-p1 {
+        font-size: 20px;
+    }
+
+    .bottom1-img1 {
+        height: 60px;
+        width: 40px;
+    }
+
+    .bottom2 {
+        margin-left: 45px;
+    }
+
+    .account {
+        margin-left: 230px;
+    }
+}
+
+@media (max-width: 850px) {
+    .zakaz-input-id {
+        width: 300px;
+    }
+    
+    .zakaz-input-adres {
+        width: 300px;
+    }
+    .zakaz {
+        margin-left: 55px;
+    }
+    .zakaz-p2 {
+        max-width: 600px;
+    }
+    .zakaz-adres {
+        margin-left: 245px;
+    }
+    .header-line2 {
+        padding-left: 55px;
+    }
+
+    .header-line3-new {
+        margin: 10px 40px 10px 55px;
+    }
+    .category {
+        margin-left: 55px;
+    }
+    
+    .bottom1 {
+        margin-left: 55px;
+    }
+}
+
+@media (max-width: 820px) {
+    .header-line3-a4 {
+        display: none;
+    }
+
+    .header-line3-img4 {
+        display: none;
+    }
+    .header-line1-input {
+        width: 240px;
+    }
+}
+@media (max-width: 770px) {
+    .zakaz {
+        margin-left: 55px;
+    }
+    .header-line3-a4 {
+        display: none;
+    }
+
+    .header-line3-img4 {
+        display: none;
+    }
+
+    .header-line1-input {
+        width: 210px;
+        margin-left: 30px;
+    }
+
+    .header-line2 {
+        padding-left: 50px;
+    }
+
+    .header-line3-new {
+        margin: 10px 40px 10px 50px;
+    }
+    .category {
+        margin-left: 50px;
+    }
+
+    .bottom1 {
+        margin-left: 50px;
+    }
+
+    .bottom2 {
+        margin-left: 34px;
+    }
+
+    .account {
+        margin-left: 150px;
+    }
+} 
