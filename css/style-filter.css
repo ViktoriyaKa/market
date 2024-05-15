@@ -223,6 +223,24 @@ body {
     margin-bottom: 20px;
 }
 
+.filter-a {
+    color: #000;
+}
+
+.filter-new {
+    margin-top: 20px;
+}
+.filter-new-p {
+    color: #000;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.filter-new-p:hover {
+    color: #4dc345;
+    transition: 0.5s;
+}
+
 .left-filter-1 input {
     margin-right: 5px;
     margin-top: 10px;
