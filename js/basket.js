@@ -1,20 +1,18 @@
-// document.querySelector('.tovar1-btn-img1').addEventListener('click', function() {
-//     document.querySelector('.tovar1').style.display = 'none';
-// });
-
-// document.querySelector('.tovar2-btn-img1').addEventListener('click', function() {
-//     document.querySelector('.tovar2').style.display = 'none';
-// });
-
-// document.querySelector('.knopka2').addEventListener('click', function() {
-//     document.querySelector('.tovar1').style.display = 'none';
-//     document.querySelector('.tovar2').style.display = 'none';
-// });
-
-// document.querySelector('.knopka1').addEventListener('click', function() {
-//     window.location.href = 'index-head.html';
-//   });
-
+const tovaraNet = document.querySelector('.tovara-net')
+document.querySelectorAll('.tovar1-btn-img1').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    this.parentElement.style.display = 'none';
+    let allHidden = true;
+    document.querySelectorAll('.tovar1-btn-img1').forEach(function(btn) {
+      if (btn.parentElement.style.display !== 'none') {
+        allHidden = false;
+      }
+    });
+    if (allHidden) {
+      tovaraNet.style.display = 'block';
+    }
+  });
+});
 
 const input = document.querySelector('.cart-right-22-input');
 const button = document.querySelector('.cart-right-22-btn1');
