@@ -740,10 +740,12 @@ input[type="range"]::-moz-range-thumb{
         padding-left: 150px;
     }
 
-    .header-line3-select {
-        margin: 10px 10px 10px 150px;
+    .header-line3-new {
+        margin: 10px 40px 10px 150px;
     }
-    
+    .category {
+        margin-left: 150px;
+    }
     .header-line3-a1 {
         font-size: 12px;
     }
@@ -790,9 +792,17 @@ input[type="range"]::-moz-range-thumb{
     .header-line2 {
         padding-left: 100px;
     }
-
-    .header-line3-select {
-        margin: 10px 10px 10px 100px;
+    .header-line3-new {
+        margin: 10px 40px 10px 100px;
+        width: 140px;
+    }
+    .header-line3-p {
+        font-size: 12px;
+        margin-left: 2px;
+        margin-top: 1px;
+    }
+    .category {
+        margin-left: 100px;
     }
     
     .bottom1 {
@@ -821,10 +831,13 @@ input[type="range"]::-moz-range-thumb{
         padding-left: 80px;
     }
 
-    .header-line3-select {
-        margin: 10px 10px 10px 80px;
+    .header-line3-new {
+        margin: 10px 40px 10px 80px;
     }
-    
+    .category {
+        margin-left: 80px;
+    }
+
     .bottom1 {
         margin-left: 80px;
     }
@@ -852,8 +865,11 @@ input[type="range"]::-moz-range-thumb{
         padding-left: 55px;
     }
 
-    .header-line3-select {
-        margin: 10px 10px 10px 55px;
+    .header-line3-new {
+        margin: 10px 40px 10px 55px;
+    }
+    .category {
+        margin-left: 55px;
     }
     
     .bottom1 {
@@ -895,8 +911,11 @@ input[type="range"]::-moz-range-thumb{
         padding-left: 50px;
     }
 
-    .header-line3-select {
-        margin: 10px 10px 10px 50px;
+    .header-line3-new {
+        margin: 10px 40px 10px 50px;
+    }
+    .category {
+        margin-left: 50px;
     }
 
     .bottom1 {
