@@ -479,12 +479,6 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 }
 
-@media (max-width: 1244px) {
-    .account {
-        margin-left: 460px;
-    }
-}
-
 @media (max-width: 1080px) {
     .header-line1-input {
         width: 300px;
