@@ -478,7 +478,24 @@ body {
     opacity: 0.9;
     transition: 0.7s;
 }
+.cart-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20px;
+    min-height: 20px;
+    position: absolute;
+    margin-left: 1127px;
+    margin-top: 25px;
+    background-color: #fff;
+    border: 1px solid #1B6392;
+    border-radius: 50%;
+}
 
+.cart-icon-p {
+    color: #1B6392;
+    font-size: 12px;
+}
 @media (max-width: 1370px) {
     .account {
         margin-left: 500px;
@@ -500,6 +517,9 @@ body {
 }
 
 @media (max-width: 1300px) {
+    .cart-icon {
+        margin-left: 1097px;
+    }
     .header-line1-img3 {
         margin-left: 70px;
     }
@@ -514,6 +534,9 @@ body {
 }
 
 @media (max-width: 1274px) {
+    .cart-icon {
+        margin-left: 924px;
+    }
     .header-line1-p1 {
         font-size: 18px;
     }
@@ -556,6 +579,9 @@ body {
 }
 
 @media (max-width: 1080px) {
+    .cart-icon {
+        margin-left: 773px;
+    }
     .header-line1-input {
         width: 300px;
     }
@@ -610,6 +636,9 @@ body {
 }
 
 @media (max-width: 1000px) {
+    .cart-icon {
+        margin-left: 724px;
+    }
     .header-line1-input {
         width: 300px;
     }
@@ -630,7 +659,6 @@ body {
     .category {
         margin-left: 100px;
     }
-    
     .bottom1 {
         margin-left: 100px;
     }
@@ -649,6 +677,9 @@ body {
     }
 }
 @media (max-width: 890px) {
+    .cart-icon {
+        margin-left: 684px;
+    }
     .header-line1-input {
         width: 280px;
     }
@@ -687,6 +718,9 @@ body {
 }
 
 @media (max-width: 850px) {
+    .cart-icon {
+        margin-left: 659px;
+    }
     .header-line2 {
         padding-left: 55px;
     }
@@ -708,6 +742,9 @@ body {
 }
 
 @media (max-width: 820px) {
+    .cart-icon {
+        margin-left: 618px;
+    }
     .header-line3-a4 {
         display: none;
     }
@@ -720,6 +757,9 @@ body {
     }
 }
 @media (max-width: 770px) {
+    .cart-icon {
+        margin-left: 544px;
+    }
     .header-line3-a4 {
         display: none;
     }
@@ -736,7 +776,6 @@ body {
     .header-line2 {
         padding-left: 50px;
     }
-
     .header-line3-new {
         margin: 10px 40px 10px 50px;
     }
@@ -756,5 +795,3 @@ body {
         margin-left: 150px;
     }
 } 
-
-
